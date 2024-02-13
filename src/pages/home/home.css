@@ -1,0 +1,82 @@
+header {
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    border-right: 3px solid white;
+    height: 100%;
+}
+.navbar li{
+    color: white;
+    align-items: center;
+    padding: 90% 20% 100% 20%;
+    list-style: none;
+}
+.btnMenu:hover {
+    transform: scale(0.9);
+}
+.btnMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+.btnMenu img{
+    width: 50px;
+}
+.contentPage{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}
+.midiasDigitais{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin: 2% 5% 0% 0%;
+
+}
+.redessSociais img{
+    width: 50px;
+    padding: 20px;
+}
+.redessSociais:hover{
+    transform: scale(0.9);
+}
+.logoSite{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+footer{
+    display: flex;
+
+    background-color: black;
+    color: white;
+    padding: 13% 5% 5% 0%;
+    margin:  0% -7% 0% 0%;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.textFooter{
+    bottom: 10%;
+    margin: auto;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
